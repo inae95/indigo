@@ -1,0 +1,64 @@
+@charset 'utf-8';
+
+/* header */
+.header{
+  position:relative; height:76px; padding:29px 54px; background:transparent
+}
+.header>.container{
+  width:100%;
+}
+.nav{
+  width:80%; height:auto; position:static; float:right; background:transparent;
+}
+.nav>ul{
+  display: flex; flex-flow:row nowrap; justify-content:flex-end;
+}
+.nav>ul>li{
+  padding:0 0 0 20px; border:none;
+}
+.nav>ul>li>a{
+  color:#22349b
+}
+#tgl_btn{
+display: none;
+}
+/* section */
+.section.display{
+  height:200%;
+}
+.section.promotion>.container>li{
+  width:23.67491166077739%;
+  margin-right:1.76678445229682%;
+  padding:0 1.76678445229682%;
+}
+.section.promotion>.container>li:last-child{
+  margin-right:0;
+}
+.section.work>.row>li{
+  width:50%;
+}
+.section.blog>.container>li{
+  width:31.59722222222222%;
+  margin-right:2.604166666666667%;
+  padding:0;
+}
+.section.blog>.container>li:first-child{
+  width:100%;
+  margin:0;
+}
+.section.blog>.container>li:last-child{
+  margin:0;
+}
+.section.contact>.container>form{
+  height:270px; flex-wrap:wrap;
+}
+.section.contact>.container>form>input{
+  margin:16px 0;
+}
+.section.contact>.container>form>input,
+.section.contact>.container>form>textarea{
+  width:48.697916666667%;
+}
+.section.contact>.container>form>textarea{
+  align-self: flex-end;
+}

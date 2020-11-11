@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="indigo-touch-icon.png">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- font Awesome_icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- bxslider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" integrity="sha512-UBY4KATrDAEKgEEU+RAfY4yWrK0ah43NGwNr5o/xmncxsT+rv8jp7MI3a00I0Ep3NbAx05U5kw3DvyNCoz+Wcw==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous"></script>
+
+  <title>INDIGO</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/tablet.css" media="(min-width:768px)">
+  <link rel="stylesheet" href="css/pc.css" media="(min-width:1132px)">
+  <!-- <link rel="stylesheet" href="/css/default.css"> -->
+</head>
+
+
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="container clearfix">
+        <h1>
+          <a href="#">INDIGO</a>
+        </h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">WE ARE</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </nav>
+        <div id="tgl_btn" onclick="
+        document.querySelector('.nav').classList.toggle('active');
+        ">
+          <div class="line">line</div>
+        </div>
+      </div>
+    </header>
+    <section class="section slider">
+      <img src="./images/slide01.jpg" alt="slider img">
+    </section>
+    <section class="section display">
+      <div class="container">
+        <h2 class="sub_tit">WE ARE</h2>
+        <p class="sub_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, eaque quo et facere omnis similique totam eveniet mollitia itaque placeat voluptate ipsa quia repudiandae, perspiciatis voluptatibus explicabo sint ea ex.</p>
+      </div>
+    </section>
+    <section class="section promotion">
+      <ul class="container clearfix">
+        <li>
+          <a href="#">
+            <img src="./images/promo01.png" alt="홈">
+            <p class="icons_tit">HOME</p>
+            <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/promo02.png" alt="WE ARE">
+            <p class="icons_tit">WE ARE</p>
+            <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/promo03.png" alt="WORK">
+            <p class="icons_tit">WORK</p>
+            <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/promo04.png" alt="BLOG">
+            <p class="icons_tit">BLOG</p>
+            <p class="sub_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="section divider">
+      <div class="container">긴라인</div>
+    </section>
+    <section class="section work">
+      <div class="container">
+        <h2 class="sub_tit">
+          WORK
+        </h2>
+      </div>
+      <ul class="row clearfix">
+        <li>
+          <a href="#">
+            <img src="./images/work01.jpg" alt="육상">
+            <div class="work_txt">
+              <h3>Running</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/work02.jpg" alt="럭비">
+            <div class="work_txt">
+              <h3>Rugby</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/work03.jpg" alt="육상">
+            <div class="work_txt">
+              <h3>Weight</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/work04.jpg" alt="마라톤">
+            <div class="work_txt">
+              <h3>Marathon</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/work05.jpg" alt="복싱">
+            <div class="work_txt">
+              <h3>Boxing</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/work06.jpg" alt="아이스하키">
+            <div class="work_txt">
+              <h3>ice Hockey</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/work07.jpg" alt="스케이트보드">
+            <div class="work_txt">
+              <h3>Skate Board</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/work08.jpg" alt="농구">
+            <div class="work_txt">
+              <h3>Basketball</h3>
+              <p>WEB/PRINT</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="section mini_divider">
+      <div class="container">짧은줄</div>
+    </section>
+    <section class="section blog">
+      <ul class="container clearfix">
+        <li>
+          <h2 class="sub_tit">BLOG</h2>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/blog01.jpg" alt="블로그1">
+            <p class="blog_date">OCD 30, 2016</p>
+            <p class="sub_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/blog02.jpg" alt="블로그2">
+            <p class="blog_date">OCD 30, 2016</p>
+            <p class="sub_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/blog03.jpg" alt="블로그3">
+            <p class="blog_date">OCD 30, 2016</p>
+            <p class="sub_txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="section contact">
+      <div class="container">
+        <h2 class="sub_tit">CONTACT</h2>
+        <form method="get">
+          <input type="text" name="name" id="name" placeholder="Name">
+          <input type="tel" name="tel" id="tel" placeholder="Phone">
+          <input type="email" name="email" id="email" placeholder="Email Address">
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+          <button type="button">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <section class="section map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6326.116008843928!2d126.96415629815303!3d37.55369716880442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca266869b6f27%3A0x2ff1ff2e4fb33dcb!2z7ISc7Jq47Jet!5e0!3m2!1sko!2skr!4v1597730703371!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <footer class="footer copyright">
+      <h2 class="sub_tit">INDIGO</h2>
+    </footer>
+  </div>
+</body>
+
+<script>
+  /* $(function(){
+    $('#tgl_btn').clock(function(){
+      $('.nav').toggleClass('active');
+    });
+  }) */
+</script>
+</html>
